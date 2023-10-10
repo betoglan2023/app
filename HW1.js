@@ -19,5 +19,5 @@ if (booleanValue){
     return "Berdi"
 }
 
-const netije = atuytgeyan("Umyt",false)
+const netije = atuytgeyan("Umyt",true)
 console.log(netije)
