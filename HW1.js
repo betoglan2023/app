@@ -21,3 +21,8 @@ if (booleanValue){
 
 const netije = atuytgeyan("Umyt",true)
 console.log(netije)
+
+// Homework
+// create a function that takes 2 arguments as (number, string)
+// const netije = exampleFunction(5, "berdi")
+// console.log(netije) output should be: "berdiberdiberdiberdi" as you can see 5 times
