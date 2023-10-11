@@ -30,15 +30,5 @@
 
 //basdaky edenim
 
-//const netije1 =  ("berdi".repeat(5))
-//console.log (netije1)
-
-
-function exercise (number, string){
-let number = 5
-let string = "berdi"
-let sum = nummber*string
-return sum
-}
-const netije = exercise (5,"berdi")
-console.log (netije)
+const netije1 =  ("berdi".repeat(5))
+console.log (netije1)
