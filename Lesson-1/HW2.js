@@ -15,9 +15,10 @@
 
 // console.log (netije)
 
-let string = "berdi"
+let string = ""
 
-for (let i = 0; i < 5; i++) {
-  string += "berdi " + i ;
-console.log (string)
+for (let i = 1; i <= 5; i++) {
+  string += "berdi";
 }
+
+console.log (string)
