@@ -11,7 +11,9 @@
 // dine umyt bersem sholar yokardaky yaly
 
 myfunc = (name) => {
-    console.log("Salam" +" "+ name)
-}
+  console.log("Salam" + " " + name);
+};
 
-myfunc ("Umyt")
+myfunc("Umyt");
+
+// Yalnysh umyt mesela dushunmansin

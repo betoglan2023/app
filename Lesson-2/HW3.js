@@ -6,21 +6,19 @@
 // const netije2 = myFunc(10, "meselem")
 // output: senin beren sanyn beren sozun harpydan uly
 
+example = (text, num, booleanValue) => {
+  if (booleanValue) {
+    return text.substring(num) + text;
+  }
 
+  console.log("senin beren sanyn beren sozun harpydan uly");
+};
 
-example = (text,num,booleanValue) => {
+console.log(example("meselemdir", 7, true));
 
-if (booleanValue){
-
-return text.substring(num)+text
-
-}
-
-console.log("senin beren sanyn beren sozun harpydan uly")
-
-}
-
-console.log (example("meselemdir",7,true))
-
-// true - ly mesela kan dusunmedim . nadip sozun harpynyn uzynlygyny sanlarda anladyp bolyandygyna , 
+// true - ly mesela kan dusunmedim . nadip sozun harpynyn uzynlygyny sanlarda anladyp bolyandygyna ,
 //object ya array bilen islemelimi
+
+// boolean bermek hokman dal parameter hokmunde
+// mesela dogry dushunip yene barlap gor
+// bile ishlars bolmasa
