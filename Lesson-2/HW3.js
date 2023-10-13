@@ -8,10 +8,19 @@
 
 
 
-function example (num,text){
+example = (text,num,booleanValue) => {
 
-let hat = "meselemdir";
-return hat.substring(7);
+if (booleanValue){
+
+return text.substring(num)+text
+
 }
 
-console.log (example(5))
+console.log("senin beren sanyn beren sozun harpydan uly")
+
+}
+
+console.log (example("meselemdir",7,true))
+
+// true - ly mesela kan dusunmedim . nadip sozun harpynyn uzynlygyny sanlarda anladyp bolyandygyna , 
+//object ya array bilen islemelimi
