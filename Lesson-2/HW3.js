@@ -18,7 +18,3 @@ console.log(example("meselemdir", 7, true));
 
 // true - ly mesela kan dusunmedim . nadip sozun harpynyn uzynlygyny sanlarda anladyp bolyandygyna ,
 //object ya array bilen islemelimi
-
-// boolean bermek hokman dal parameter hokmunde
-// mesela dogry dushunip yene barlap gor
-// bile ishlars bolmasa
