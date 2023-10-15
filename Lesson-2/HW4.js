@@ -10,10 +10,13 @@
 // dine salam bersem output yokardaky,
 // dine umyt bersem sholar yokardaky yaly
 
-myfunc = (name) => {
-  console.log("Salam" + " " + name);
-};
+// myfunc = (name) => {
+//   console.log("Salam" + " " + name);
+// };
 
-myfunc("Umyt");
+// myfunc("Umyt");
 
 // Yalnysh umyt mesela dushunmansin
+let text2 = "Apple, Banana, Kiwi";
+let part = text2.slice(4);
+console.log(text2);

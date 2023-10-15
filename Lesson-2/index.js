@@ -1,4 +1,7 @@
-// string.length()
+// string.length
+
+let qwe = "kitap";
+console.log(qwe.length);
 
 let text = "meselem";
 console.log(text[6], "lenght");
