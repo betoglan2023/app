@@ -47,3 +47,7 @@ const reverse = (text) => {
   else return reverse(text.substr(1)) + text.charAt(0);
 };
 console.log(reverse("kitaphana"));
+
+//  if (text === "") return "";
+
+// su yokarka dusunmedim bos yere name ucin beytya
