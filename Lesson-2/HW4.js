@@ -10,13 +10,19 @@
 // dine salam bersem output yokardaky,
 // dine umyt bersem sholar yokardaky yaly
 
-// myfunc = (name) => {
-//   console.log("Salam" + " " + name);
-// };
+const mesele = (text) => {
+  let nam1 = "salam Umyt";
+  let nam2 = "salam";
+  let nam3 = "umyt";
+  let at = "Berdi";
+  myArray = text.split(" ");
+  if (text === nam1) {
+    return myArray[1] + " " + myArray[0];
+  } else if (text === nam2) {
+    return at + " " + myArray[0];
+  } else if (text === nam3) {
+    return nam2 + " " + nam3;
+  }
+};
 
-// myfunc("Umyt");
-
-// Yalnysh umyt mesela dushunmansin
-let text2 = "Apple, Banana, Kiwi";
-let part = text2.slice(4);
-console.log(text2);
+console.log(mesele("salam"));
