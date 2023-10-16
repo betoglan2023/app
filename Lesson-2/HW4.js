@@ -36,4 +36,4 @@ const mesele = (text) => {
   } else return "Nabelli soz, Tazeden synansyn";
 };
 
-console.log(mesele("hey"));
+console.log(mesele("salam"));
