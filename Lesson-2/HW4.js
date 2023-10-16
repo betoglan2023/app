@@ -17,12 +17,23 @@ const mesele = (text) => {
   let at = "Berdi";
   myArray = text.split(" ");
   if (text === nam1) {
-    return myArray[1] + " " + myArray[0];
+    return (
+      myArray[1] +
+      " " +
+      myArray[0].charAt(0).toUpperCase() +
+      myArray[0].slice(1)
+    );
   } else if (text === nam2) {
-    return at + " " + myArray[0];
+    return at + " " + myArray[0].charAt(0).toUpperCase() + myArray[0].slice(1);
   } else if (text === nam3) {
-    return nam2 + " " + nam3;
-  }
+    return (
+      nam2.charAt(0).toUpperCase() +
+      nam2.slice(1) +
+      " " +
+      nam3.charAt(0).toUpperCase() +
+      nam3.slice(1)
+    );
+  } else return "Nabelli soz, Tazeden synansyn";
 };
 
-console.log(mesele("salam"));
+console.log(mesele("hey"));
