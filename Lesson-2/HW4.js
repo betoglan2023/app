@@ -36,4 +36,8 @@ const mesele = (text) => {
   } else return "Nabelli soz, Tazeden synansyn";
 };
 
-console.log(mesele("hey"));
+console.log(mesele("umyt"));
+
+// HW - myFunc(text), 1 parameter
+// console.log("kitaphana") => // output: anahpatik
+// tersine yazmaly
