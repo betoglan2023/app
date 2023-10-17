@@ -20,7 +20,7 @@
 //     return (
 //       myArray[1] +
 //       " " +
-//       myArray[0].charAt(0).toUpperCase() +
+//       myArray[0][0].toUpperCase() +
 //       myArray[0].slice(1)
 //     );
 //   } else if (text === nam2) {
@@ -41,11 +41,13 @@
 // HW - myFunc(text), 1 parameter
 // console.log("kitaphana") => // output: anahpatik
 // tersine yazmaly
-
+let nm = "";
 const reverse = (text) => {
   if (text === "") return "";
-  else return reverse(text.substr(1)) + text.charAt(0);
+  nm += text[0];
+  return reverse(text.substr(1)) + text.charAt(0);
 };
+reverse("kitaphana");
 console.log(reverse("kitaphana"));
 
 //  if (text === "") return "";

@@ -4,7 +4,7 @@ let qwe = "kitap";
 console.log(qwe.length);
 
 let text = "meselem";
-console.log(text[6], "lenght");
+console.log(text.length, "lenght");
 
 //string.split()
 const date = "2023-04-05FH14:45";
