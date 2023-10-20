@@ -10,33 +10,28 @@
 // dine salam bersem output yokardaky,
 // dine umyt bersem sholar yokardaky yaly
 
-// const mesele = (text) => {
-//   let nam1 = "salam Umyt";
-//   let nam2 = "salam";
-//   let nam3 = "umyt";
-//   let at = "Berdi";
-//   myArray = text.split(" ");
-//   if (text === nam1) {
-//     return (
-//       myArray[1] +
-//       " " +
-//       myArray[0][0].toUpperCase() +
-//       myArray[0].slice(1)
-//     );
-//   } else if (text === nam2) {
-//     return at + " " + myArray[0].charAt(0).toUpperCase() + myArray[0].slice(1);
-//   } else if (text === nam3) {
-//     return (
-//       nam2.charAt(0).toUpperCase() +
-//       nam2.slice(1) +
-//       " " +
-//       nam3.charAt(0).toUpperCase() +
-//       nam3.slice(1)
-//     );
-//   } else return "Nabelli soz, Tazeden synansyn";
-// };
+const mesele = (text) => {
+  let nam1 = "salam Umyt";
+  let nam2 = "salam";
+  let nam3 = "umyt";
+  let at = "Berdi";
+  myArray = text.split(" ");
+  if (text === nam1) {
+    return myArray[1] + " " + myArray[0][0].toUpperCase() + myArray[0].slice(1);
+  } else if (text === nam2) {
+    return at + " " + myArray[0].charAt(0).toUpperCase() + myArray[0].slice(1);
+  } else if (text === nam3) {
+    return (
+      nam2.charAt(0).toUpperCase() +
+      nam2.slice(1) +
+      " " +
+      nam3.charAt(0).toUpperCase() +
+      nam3.slice(1)
+    );
+  } else return "Nabelli soz, Tazeden synansyn";
+};
 
-// console.log(mesele("umyt"));
+console.log(mesele("umyt"));
 
 // HW - myFunc(text), 1 parameter
 // console.log("kitaphana") => // output: anahpatik

@@ -35,8 +35,8 @@ arr.forEach((value, index, arr) => {
 // 1kitaphanany for da islemeli
 // text slice
 
-const berdikesilen = "berdi".slice(0, 3);
-console.log(berdikesilen, "berdi");
+// const berdikesilen = "berdi".slice(0, 3);
+// console.log(berdikesilen, "berdi");
 
 // 2umytSlice("bdabakjshdsahd", 9, 12);
 
