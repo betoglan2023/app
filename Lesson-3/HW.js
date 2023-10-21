@@ -28,18 +28,36 @@
 // console.log(berdikesilen, "berdi");
 
 // 2umytSlice("bdabakjshdsahd", 9, 12);
+
+let str2 = "";
+let err = "Beren sanyn uly";
 let str = "";
 const myFunc = (text, num1, num2) => {
-  for (i = num1; i < num2; i++) {
-    str += text[i];
+  if (num2 === undefined) {
+    for (i = num1; i < text.length; i++) {
+      str += text[i];
+    }
+    console.log(str);
+  } else if (num1 > text.length) {
+    for (i = num1; i < text.length; i++);
+    console.log(err);
+  } else if (num2 > text.length) {
+    for (i = num1; i < text.length; i++) {
+      str += text[i];
+    }
+    let err2 = num2 + " " + "cenli harp yok";
+    console.log(str, " " + " " + err2);
+  } else {
+    for (i = num1; i < num2; i++) {
+      str += text[i];
+    }
+    console.log(str);
   }
-  console.log(str);
 };
-myFunc(
-  "assadcda12dc3123csasds1sad23adberdiKesilencrr2cas34123sdtgawteryh12nbj3mk,.lp",
-  30,
-  42
-);
+myFunc("assadcda12dc3123csasds1sad23adberdiKesilencrr2asdwrca", 100, 30);
+
+// 2nji meselede beren sanyn uly diyp yazmaly bolsa hokman 2nji argumendy bermeli bolmasa islanok
+// 2nji argumentsyz bos cykarya
 
 // Yokarky funksiyany ösdürmeli meselem diňe num1 bersem:
 // myFunc("kitaphana", 2) => 2den son kesmeli sonuna chenli: taphana
@@ -60,18 +78,18 @@ myFunc(
 // };
 // myFunc("kitaphana");
 
-let boolenlar = [];
-let sozler = [];
-let sanlar = [];
+// let boolenlar = [];
+// let sozler = [];
+// let sanlar = [];
 
-const arr = ["umyt", 1, true, false, 4, 9, "gerek", "kerim", 5, false];
+// const arr = ["umyt", 1, true, false, 4, 9, "gerek", "kerim", 5, false];
 
-for (i = 0; i < arr.length; i++) {
-  if (typeof arr[i] === typeof "a") {
-    sozler.push(arr[i]);
-  } else if (typeof arr[i] === typeof 1) {
-    sanlar.push(arr[i]);
-  } else boolenlar.push(arr[i]);
-}
+// for (i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === typeof "a") {
+//     sozler.push(arr[i]);
+//   } else if (typeof arr[i] === typeof 1) {
+//     sanlar.push(arr[i]);
+//   } else boolenlar.push(arr[i]);
+// }
 
-console.log(sozler, sanlar, boolenlar);
+// console.log(sozler, sanlar, boolenlar);
