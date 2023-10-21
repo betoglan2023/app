@@ -54,7 +54,7 @@ const myFunc = (text, num1, num2) => {
     console.log(str);
   }
 };
-myFunc("assadcda12dc3123csasds1sad23adberdiKesilencrr2asdwrca", 100, 30);
+myFunc("assadcda12dc3123csasds1sad23adberdiKesilencrr2asdwrca", 4);
 
 // 2nji meselede beren sanyn uly diyp yazmaly bolsa hokman 2nji argumendy bermeli bolmasa islanok
 // 2nji argumentsyz bos cykarya
