@@ -41,6 +41,11 @@ myFunc(
   42
 );
 
+// Yokarky funksiyany ösdürmeli meselem diňe num1 bersem:
+// myFunc("kitaphana", 2) => 2den son kesmeli sonuna chenli: taphana
+// myFunc("kitaphana", 10) => num1 > kitapahana length bolsa => beren sanym uly
+// myFunc("kitaphana", 3, 30) => bunam 30a chenli harp yok diyip, 3 den son kesip bermeli
+
 // 3const newArr = ["name", "dajds", 89, 3921, 2910, true, false];
 // garym gatym gelya ayratyn typelary boyunca sortlamaly
 // boolen string number . funcsiyada . ayratyn arrayda
