@@ -7,8 +7,25 @@
 let sanlar = [];
 
 const myFunc = (num) => {
-  for (i = 0; i < num.length; i++) {
-    console.log(myFunc);
+  for (i = 0; i < num; i++) {
+    sanlar.push(i);
   }
 };
-myFunc(10);
+myFunc(55);
+console.log(sanlar);
+
+// let arr = [];
+// let str = "";
+// let str1 = "";
+// let str2 = "";
+// const myFunc = (text) => {
+//   for (i = 0; i < text.length; i++) {
+//     str = text[0 + i];
+//     str1 = str + "-" + i;
+//     console.log(str1);
+//   }
+// };
+// myFunc("salam");
+
+// 2nji netijede s-0 a-1 l-3 ....... yalak cykya sanalry sonam hersi ayry setirde
+//  output tocno senki yaly bolsunmy ?
