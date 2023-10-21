@@ -3,3 +3,12 @@
 
 // 2) text = "salam"
 // etmeli zat s-1, a-2, l-3, a-4, m-5
+
+let sanlar = [];
+
+const myFunc = (num) => {
+  for (i = 0; i < num.length; i++) {
+    console.log(myFunc);
+  }
+};
+myFunc(10);
