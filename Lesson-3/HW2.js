@@ -29,3 +29,5 @@ console.log(sanlar);
 
 // 2nji netijede s-0 a-1 l-3 ....... yalak cykya sanalry sonam hersi ayry setirde
 //  output tocno senki yaly bolsunmy ?
+//  howa meñki yaly eday
+//
