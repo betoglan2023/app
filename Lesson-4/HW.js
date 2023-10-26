@@ -3,23 +3,38 @@ const nestedObj = {
   at: "Umyt",
   caga: {
     at: "Meret",
+    clothes: ["jorap", "koynek"],
+    numbers: [1, 2, 4, 5],
   },
 };
-console.log(nestedObj.caga.at); // returns Meret
+console.log(nestedObj["caga"]["at"]); // returns Meret
 
 // at we age value-lary uytgetmeli for ulanyp
 // at-a berdi, age-a 23 goymaly
-const person = {
-  at: "Umyt",
-  age: 24,
-  student: true,
-  job: " frontend developer",
-};
 
+// const person = {
+//   at: "Umyt",
+//   age: 24,
+//   student: true,
+//   job: " frontend developer",
+// };
+
+// for (x in person) {
+//   if (x === "at") {
+//     person.at = "Berdi";
+//   } else if (x === "age") {
+//     person.age = 23;
+//   }
+// }
+// console.log(person);
 // HW Her bankyn oz bahasyny ay boyuncha goshmaly
 // in sonunda: Halkbank account: ... man
 //             Merkezi Bank: ... man
 //             Dayhan Bank: ... man
+
+let HalkBank = 0;
+let MerkeziBank = 0;
+let DayhanBank = 0;
 
 const bankAccounts = {
   january: {
@@ -73,3 +88,10 @@ const bankAccounts = {
     DayhanBank: 282,
   },
 };
+
+for (x in bankAccounts) {
+  HalkBank = HalkBank + bankAccounts[x].HalkBank;
+  MerkeziBank = MerkeziBank + bankAccounts[x].MerkeziBank;
+  DayhanBank = DayhanBank + bankAccounts[x].DayhanBank;
+}
+console.log(HalkBank);
