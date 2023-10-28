@@ -5,7 +5,7 @@ const obj = {
   company: "Belet",
   films: ["Inception", "Seven", "Star wars", "Oppenheimer"],
   divisions: {
-    videoChecker: {
+    vidChek: {
       at: "Belet division",
       stuff: ["A1", "B5", "C6", "D8", "E12"],
     },
@@ -24,17 +24,10 @@ let tex3 = 0;
 let tex4 = 0;
 let tex5 = [];
 let jemi = 0;
-console.log(obj.divisions.videoChecker.stuff);
-console.log((tex = obj.divisions.videoChecker.stuff.join("").split("")));
 
-for (i = 1; i < tex.length; i++) {
-  tex3 = parseInt(tex[i], 10);
-  arrSanlar += tex3;
-  tex4 = arrSanlar.split("NaN");
+let jem = 0;
+for (let i = 0; i < obj.divisions.videoChecker.stuff.length; i++) {
+  console.log(obj.divisions.videoChecker.stuff[i]);
+  jem += parseInt(obj.divisions.videoChecker.stuff[i].slice(1), 10);
 }
-console.log(tex4);
-for (i = 0; i < tex4.length; i++) {
-  tex5.push(parseInt(tex4[i], 10));
-  jemi += tex5[i];
-}
-console.log(jemi);
+console.log(jem);
