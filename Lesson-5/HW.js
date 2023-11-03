@@ -19,3 +19,20 @@ const jem = arr2.filter((value, index) => {
   return value !== 4;
 });
 console.log(jem);
+
+// mana san onundenem yzyndanam . soz yada harp funksiyada . for .bolyan bolsa true bolmasa false cykarmaly
+
+let onunden = "";
+let yzyndan = "";
+const myFunc = (tex) => {
+  for (i = tex.length - 1; i > -1; i--) {
+    yzyndan += tex[i];
+  }
+  onunden += tex;
+  if (onunden === yzyndan) {
+    console.log(true);
+  } else console.log(false);
+};
+myFunc("123321");
+// console.log(yzyndan);
+// console.log(onunden);
